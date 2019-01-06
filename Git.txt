@@ -1,0 +1,29 @@
+获取密匙命令:
+ssh-keygen -t rsa -C "2568068424@.com"
+==================================================
+网址:https://github.com
+密码:zhaoyajing0306
+========================================================
+git clone https://github.com/zhaoyajing12
+
+git add index.html  //增加
+
+git commit -m "information abcd"  //提交
+
+git push origin master      //推送
+
+==================================================================
+https://blog.csdn.net/xc_zhou/article/details/80637759
+
+
+https://blog.csdn.net/rj597306518/article/details/71307757
+
+https://blog.csdn.net/JavaAndroid730/article/details/53522872
+
+
+
+
+ a17611439362.ftp-gz01.bcehost.com
+ a17611439362
+ root
+ 8010
