@@ -1,0 +1,118 @@
+配置步骤：
+1）加载php5_module模块
+LoadModule php5_module E:/wwwrver/php/php5apache2_2.dll
+2)修改网页文件的储存路径	(2个地方)
+DocumentRoot "E:/www/web"--文档根目录
+<Directory  "E:/www/web">
+
+3)指定默认主页 index.php
+ DirectoryIndex index.php index.html
+4)增加对.php文件解析
+ AddType application/x-httpd-php .php
+ AddType application/x-httpd-php .html
+-------------------------------------------
+progrom--程序
+----------------------------------------------
+data--数据
+base--基本的，库
+database--数据库
+show--显示
+create--创建，*该关键字使用非常频繁
+create database php;--创建名为php的数据库
+show databases;--查看全部数据库
+use php;--使用名为：php的数据库
+------------------------------------------
+drop database php;--删除名为：php的数据库
+注：
+1)当前正自使用的数据库，不能被删除！
+解决办法：如要删除php数据库，
+先切换到其他的数据库
+如：test数据库再删除php数据库
+删除命令：drop database php;
+2)mysql自带的3个数据库，都不能删除！
+  a)information_shcema b)mysql c)test
+
+mysql常规命令：
+1.show databases;             --查看所有数据库
+2.use 库名；                  --切换到指定的数据库
+3.create database php;        --新建名为php的数据库
+4.drop datdbase php;          -- 删除名为php的数据库
+5.exit;                       --退出mysql
+6.show tables;                --查看指定的数据库中所有表
+7.desc 表名；                 --查看指定表的信息
+8.prompt mysql(\d)>           --格式化库名提示符
+9.创建名为 student 的表名，代码如下：
+create table student
+(
+ id int not null auto_increment primary key,
+ name char(20) not null,
+ age int not null,
+ address varchar(100) not null
+);
+
+
+
+
+
+
+
+
+配置步骤：
+1）加载php5_module模块
+LoadModule php5_module E:/wwwrver/php/php5apache2_2.dll
+2)修改网页文件的储存路径	(2个地方)
+DocumentRoot "E:/www/web"--文档根目录
+<Directory  "E:/www/web">
+
+3)指定默认主页 index.php
+ DirectoryIndex index.php index.html
+4)增加对.php文件解析
+ AddType application/x-httpd-php .php
+ AddType application/x-httpd-php .html
+-------------------------------------------
+progrom--程序
+----------------------------------------------
+data--数据
+base--基本的，库
+database--数据库
+show--显示
+create--创建，*该关键字使用非常频繁
+create database php;--创建名为php的数据库
+show databases;--查看全部数据库
+use php;--使用名为：php的数据库
+------------------------------------------
+drop database php;--删除名为：php的数据库
+注：
+1)当前正自使用的数据库，不能被删除！
+解决办法：如要删除php数据库，
+先切换到其他的数据库
+如：test数据库再删除php数据库
+删除命令：drop database php;
+2)mysql自带的3个数据库，都不能删除！
+  a)information_shcema b)mysql c)test
+
+mysql常规命令：
+1.show databases;             --查看所有数据库
+2.use 库名；                  --切换到指定的数据库
+3.create database php;        --新建名为php的数据库
+4.drop datdbase php;          -- 删除名为php的数据库
+5.exit;                       --退出mysql
+6.show tables;                --查看指定的数据库中所有表
+7.desc 表名；                 --查看指定表的信息
+8.prompt mysql(\d)>           --格式化库名提示符
+9.创建名为 student 的表名，代码如下：
+create table student
+(
+ id int not null auto_increment primary key,
+ name char(20) not null,
+ age int not null,
+ address varchar(100) not null
+);
+
+
+
+
+
+
+
+
