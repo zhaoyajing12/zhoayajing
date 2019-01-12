@@ -1,0 +1,5 @@
+﻿<?php
+
+	echo "This is Zhaoyajing!";
+	return false;
+?>
